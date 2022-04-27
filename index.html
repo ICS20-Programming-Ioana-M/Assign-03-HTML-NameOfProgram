@@ -57,7 +57,7 @@ Assign-03-HTML-NameOfProgram
     <br>
     <div class="mar">
 
-      <!-- Image about formula to convert fahenheit to celsius -->
+      <!-- Image of 2 eggs on a scale -->
       <center><img src="./images/eggsOnAScale.webp" height="250px" width="auto"></center>
 
       <!-- table to put text field next to text -->
@@ -67,32 +67,17 @@ Assign-03-HTML-NameOfProgram
             <p>Your weight:</p>
           </td>
           <td>
-            <!-- text field for your weight input -->
+            <!-- text field for user's weight input -->
             <form>
               <input
                 type="number"
                 name="yourWeight"
                 pattern="-?[0-9]*(\.[0-9]+)?"
-                id=""
+                id="your-weight"
                 min="0"
                 step="any"
               >
               <label>lbs</label>
-            </form>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <p>Name of object:</p>
-          </td>
-          <td>
-            <!-- text field for the object's name input -->
-            <form>
-              <input
-                type="text"
-                name="objectWeight"
-                id=""
-              >
             </form>
           </td>
         </tr>
@@ -107,7 +92,7 @@ Assign-03-HTML-NameOfProgram
                 type="number"
                 name="objectWeight"
                 pattern="-?[0-9]*(\.[0-9]+)?"
-                id=".toFixed(2)"
+                id="object-weight"
                 min="0"
                 step="any"
               >
@@ -116,12 +101,19 @@ Assign-03-HTML-NameOfProgram
           </td>
         </tr>
       </table>
-      
+
       <!-- accent button with ripples -->
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="buttonClicked()">Calculate</button>
-      
+      <center><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="buttonClicked()">Calculate</button></center>
+
       <!-- Displays answer when clicked -->
-      <div id="answer"></div>
+      <div class="red2" id="answer"></div>
+      <br>
+
+      <!-- fun images to make website look prettier -->
+      <center>
+        <img src="./images/ranbooSmileBlack.jpg" height="300px" width="auto">
+        <img src="./images/ranbooSmileWhite.png" height="250px" width="auto">
+      </center>
       <br>
       <br>
     </div>

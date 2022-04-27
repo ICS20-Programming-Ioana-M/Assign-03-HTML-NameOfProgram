@@ -21,3 +21,19 @@ h1{
 .red {
   color: red;
 }
+
+.red2{
+  color: red;
+  text-align: right;
+}
+
+.fil{
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid green;
+}
+
+.td {
+  text-align: left;
+  width: 50%;
+}
